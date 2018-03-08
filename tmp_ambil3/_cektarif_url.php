@@ -34,7 +34,7 @@ $ku_tujuan = seo_friendly_url2("$ku_kota2");
 
 
 echo "<h1>
-BERBURU URL : $ku_prop1 [$ku_kota1] ke $ku_prop2 [$ku_kota2]
+BERBURU URL : $ku_prop1 [$ku_kota1]
 </h1>
 <hr>";
 
@@ -45,7 +45,9 @@ BERBURU URL : $ku_prop1 [$ku_kota1] ke $ku_prop2 [$ku_kota2]
 
 
 //PROSES ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-$nilainya = "cektarif+jne+%3A+$ku_asal+ke+$ku_tujuan";
+//$nilainya = "cektarif+jne+%3A+$ku_asal+ke+$ku_tujuan";
+
+$nilainya = "cektarif+jne+%3A+$ku_asal";
 
 
 

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{judulku}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="refresh" content="{sesidt}; URL={sumber}/expire.php">
+<meta name="author" content="hajirobe">
+<meta name="description" content="{description}">
+<meta name="url" content="{url}">
+<meta name="keywords" content="{keywords}">
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.css" rel="stylesheet"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.js"></script>
+ 
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#loading').ajaxStart(function(){
+			$(this).show();
+		}).ajaxStop(function(){
+			$(this).hide();
+		});
+
+
+
+
+	
+});
+</script>
+
+
+
+
+
+<style>
+#footer 
+	{
+	background-color: white;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	}
+
+</style>
+
+</head>
+
+<body bgcolor="#ffff00" text="#000000" leftmargin="0" topmargin="0" onLoad="{diload}">
+
+
+<div id="footer">
+	<div id="loading" style="display:none">
+	<img src="{sumber}/img/progress-bar.gif" width="100" height="16">
+	</div>
+</div>
+
+
+{isi}
+
+
+
+
+<table height="100" width="100%" border="0" cellpadding="5" cellspacing="5">
+<tr bgcolor="black">
+<td>
+
+2018. SIMUDAH
+</td>
+</tr>
+</table>
+
+
+
+</body>
+</html>
